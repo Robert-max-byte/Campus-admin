@@ -13,7 +13,7 @@ export const Header = () => {
                 <Button variant="primary" onClick={handleShow} style={{marginRight:'10px'}}>
                     MENU
                 </Button>
-                <Navbar.Brand>KAGYA FOODS</Navbar.Brand>
+                <Navbar.Brand><img src='logo.svg' style={{width:'50px',height:'50px',borderRadius:'50%'}} />KAGYA FOODS</Navbar.Brand>
                 </div>
                 <ul className='justify-content-end'>
                <div >
@@ -32,7 +32,7 @@ export const Header = () => {
                 </ul>
                 <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>KAGYA FOODS</Offcanvas.Title>
+          <Offcanvas.Title><img src='logo.svg' style={{width:'50px',height:'50px',borderRadius:'50%'}} />KAGYA FOODS</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
             <Accordion defaultActiveKey='0' flush style={{ position:'sticky' }} >
